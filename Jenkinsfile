@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "karthik05/myapp"
+        IMAGE_NAME = "user0511/myapp"
         IMAGE_TAG  = "v1"
         DOCKERHUB_CREDS = "docker"
     }
